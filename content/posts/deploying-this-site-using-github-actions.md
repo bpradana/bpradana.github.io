@@ -3,7 +3,7 @@ title = "Deploying this site using GitHub Actions"
 description = "(not) A guide to deploying a Hugo site using GitHub Actions"
 date = 2024-06-21T17:50:45+07:00
 tldr = "Don't follow this guide, it's a mess."
-draft = true
+draft = false
 tags = ['DevOps']
 +++
 
