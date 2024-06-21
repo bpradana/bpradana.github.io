@@ -1,4 +1,4 @@
-FROM hugomods/hugo:latest as builder
+FROM hugomods/hugo:base as builder
 WORKDIR /app
 COPY . .
 RUN hugo --minify
