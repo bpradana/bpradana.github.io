@@ -17,7 +17,7 @@ I'm a Jogja-based backend/AI engineer and I love researching things!
 - **Junior Software Engineer (Backend)**, *(2022 - 2023. Privy)*
   - Mostly backend stuff
   - Internal tools
-- **Software Engineer**, (2022 - 2022, Belajar+ and Resolv) (yes, I worked at two startups)
+- **Software Engineer**, *(2022 - 2022, Belajar+ and Resolv)* (yes, I worked at two startups)
   - Face recognition black magic
   - Plumber (data pipeline hehe)
   - Backend things
