@@ -99,7 +99,7 @@ You need to set up some secrets in your GitHub repository. Go to `Settings` -> `
 - `USERNAME`: Your Docker registry username.
 - `HOST`: The hostname of your VPS.
 - `USER`: The username of your VPS.
-- `SSH_PRIVATE_KEY`: The private key of your VPS.
+- `SSH_PRIVATE_KEY`: Your private key.
 
 ## Conclusion
 That's it. You now have a mess. Congratulations! If you followed this mess, you're a brave soul. If you didn't, you're a smart person. Either way, I hope you enjoyed this mess. I know I did. Now go automate something else. Have fun!
