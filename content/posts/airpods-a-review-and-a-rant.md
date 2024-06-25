@@ -3,7 +3,7 @@ title = "AirPods Pro 2nd Generation: a Review and a Rant"
 description = "A review of the AirPods Pro 2nd Generation and a rant about Apple's pricing and features."
 date = 2024-06-24T14:17:50+07:00
 tldr = "Only buy AirPods if you have multiple Apple devices. Otherwise, don't bother."
-draft = true
+draft = false
 tags = ['Review']
 +++
 
