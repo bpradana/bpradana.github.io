@@ -25,7 +25,7 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ secrets.REGISTRY_HOST }}/${{ secrets.USERNAME }}/site:latest
+          tags: ${{ secrets.REGISTRY_HOST }}/${{ secrets.USERNAME }}/site:${{ github.sha }}
 
   deploy:
     runs-on: ubuntu-latest
@@ -40,7 +40,4 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            docker pull ${{ secrets.REGISTRY_HOST }}/${{ secrets.USERNAME }}/site:latest
-            docker stop site || true
-            docker rm site || true
-            docker run -d --name site -p 80:80 ${{ secrets.REGISTRY_HOST }}/${{ secrets.USERNAME }}/site:latest
+            ~/services/site/deploy.sh ${{ secrets.REGISTRY_HOST }} ${{ secrets.USERNAME }} ${{ github.sha }}
