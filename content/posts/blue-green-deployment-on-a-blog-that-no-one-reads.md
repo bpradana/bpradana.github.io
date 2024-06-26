@@ -3,7 +3,7 @@ title = "Zero Downtime Deployment on a Blog That No One Reads"
 description = "A guide to implementing Blue-Green Deployment using GitHub Actions"
 date = 2024-06-24T23:52:50+07:00
 tldr = "Don't implement Blue-Green Deployment on a blog that no one reads."
-draft = true
+draft = false
 tags = ['DevOps']
 +++
 
@@ -23,7 +23,7 @@ There are many ways to implement Blue-Green Deployment, but I'm going to show yo
 6. Drink some beer (mandatory)
 
 ## Prerequisites
-Just like the [previous post](/posts/deploying-this-site-using-github-actions/), you need to have a Hugo site (or any other site, really), a GitHub account, a domain, and a VPS. You also need to have a CloudFlare account.
+Just like the [previous post](/posts/deploying-this-site-using-github-actions/), you need to have a Hugo site (or any other site, really), a GitHub account, a domain, and a VPS. You also need to have Docker installed on your VPS.
 
 ## Into the Rabbit Hole
 ### Setting Up Scripts
@@ -113,3 +113,31 @@ docker rmi $(docker images -f "dangling=true" -q) || echo "no dangling images"
 
 echo "deployed!"
 ```
+I don't have the energy to explain what this script does. Just copy and paste it into a file called `deploy.sh` and make it executable by running `chmod +x deploy.sh`.
+If you're curious, just read the script. It's not that complicated.
+
+### Setting Up GitHub Actions
+The github actions file is similar to the one in the [previous post](/posts/deploying-this-site-using-github-actions/), but with some modifications. Here's the modified part:
+```yaml
+  deploy:
+    runs-on: ubuntu-latest
+    name: Deploy to VPS
+    needs: build-upload
+
+    steps:
+      - name: deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            ~/services/site/deploy.sh ${{ secrets.REGISTRY_HOST }} ${{ secrets.USERNAME }} ${{ github.sha }}
+```
+Make sure you have the `deploy.sh` script in the same directory as the `vps.yml` file.
+
+### Pushing the Changes
+Push the changes to your repository and watch the magic happen. If everything goes smoothly, you should see the new version of your application deployed without any downtime!
+
+## Conclusion
+Blue-Green Deployment is a powerful deployment strategy that allows you to deploy new versions of your application without any downtime. It's especially useful for applications that require high availability. However, implementing Blue-Green Deployment can be complex and requires careful planning. If you're just running a simple blog that no one reads, like me, Blue-Green Deployment might be overkill. But I did it anyway because I'm a masochist. I hope this guide helps you implement Blue-Green Deployment on your blog that no one reads. Cheers! 🍻
