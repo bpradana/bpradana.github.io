@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/</loc>
+    <lastmod>2024-06-24T23:52:50+07:00</lastmod>
+  </url><url>
+    <loc>/tags/devops/</loc>
+    <lastmod>2024-06-24T23:52:50+07:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2024-06-24T23:52:50+07:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2024-06-24T23:52:50+07:00</lastmod>
+  </url><url>
+    <loc>/posts/blue-green-deployment-on-a-blog-that-no-one-reads/</loc>
+    <lastmod>2024-06-24T23:52:50+07:00</lastmod>
+  </url><url>
+    <loc>/posts/deploying-this-site-using-github-actions/</loc>
+    <lastmod>2024-06-21T17:50:45+07:00</lastmod>
+  </url><url>
+    <loc>/about/</loc>
+    <lastmod>2024-06-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+  </url>
+</urlset>

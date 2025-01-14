@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on 🚀 Bintang Pradana Erlangga Putra</title>
+    <link>/tags/devops/</link>
+    <description>Recent content in DevOps on 🚀 Bintang Pradana Erlangga Putra</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Bintang Pradana Erlangga Putra</copyright>
+    <lastBuildDate>Mon, 24 Jun 2024 23:52:50 +0700</lastBuildDate>
+    <atom:link href="/tags/devops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zero Downtime Deployment on a Blog That No One Reads</title>
+      <link>/posts/blue-green-deployment-on-a-blog-that-no-one-reads/</link>
+      <pubDate>Mon, 24 Jun 2024 23:52:50 +0700</pubDate>
+      <guid>/posts/blue-green-deployment-on-a-blog-that-no-one-reads/</guid>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;&#xA;&lt;p&gt;The same reason why I automated the deployment of this site using GitHub Actions: I was bored. I know, I know, I should find a hobby. But hey, at least I&amp;rsquo;m learning something new.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-blue-green-deployment&#34;&gt;What is Blue-Green Deployment?&lt;/h2&gt;&#xA;&lt;p&gt;Blue-Green Deployment is a deployment strategy that reduces downtime by running two identical production environments. One environment (let&amp;rsquo;s call it Blue) is live and serving traffic, while the other environment (let&amp;rsquo;s call it Green) is idle. When you want to deploy a new version of your application, you deploy it to the Green environment. Once the deployment is successful, you switch the traffic from the Blue environment to the Green environment. This way, you can deploy new versions of your application without any downtime.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deploying this site using GitHub Actions</title>
+      <link>/posts/deploying-this-site-using-github-actions/</link>
+      <pubDate>Fri, 21 Jun 2024 17:50:45 +0700</pubDate>
+      <guid>/posts/deploying-this-site-using-github-actions/</guid>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;&#xA;&lt;p&gt;I was bored at work and I thought, &lt;strong&gt;&amp;ldquo;Hey, why not automate the deployment of this site using GitHub Actions? But I don&amp;rsquo;t want the easy way, I want to do it the hard way.&amp;rdquo;&lt;/strong&gt;. I like torturing myself, so I did it the hard way. And now I&amp;rsquo;m writing about it.&lt;/p&gt;&#xA;&lt;p&gt;Before we start, let me tell you that &lt;strong&gt;this is not a guide. This is a mess.&lt;/strong&gt; I&amp;rsquo;m just documenting what I did so that I can look back and laugh at myself. If you&amp;rsquo;re looking for a guide, you&amp;rsquo;re in the wrong place. But if you&amp;rsquo;re looking for a mess, you&amp;rsquo;re in the right place.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

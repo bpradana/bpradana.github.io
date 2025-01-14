@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>🚀 Bintang Pradana Erlangga Putra</title>
+    <link>/</link>
+    <description>Recent content on 🚀 Bintang Pradana Erlangga Putra</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Bintang Pradana Erlangga Putra</copyright>
+    <lastBuildDate>Mon, 24 Jun 2024 23:52:50 +0700</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zero Downtime Deployment on a Blog That No One Reads</title>
+      <link>/posts/blue-green-deployment-on-a-blog-that-no-one-reads/</link>
+      <pubDate>Mon, 24 Jun 2024 23:52:50 +0700</pubDate>
+      <guid>/posts/blue-green-deployment-on-a-blog-that-no-one-reads/</guid>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;&#xA;&lt;p&gt;The same reason why I automated the deployment of this site using GitHub Actions: I was bored. I know, I know, I should find a hobby. But hey, at least I&amp;rsquo;m learning something new.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-blue-green-deployment&#34;&gt;What is Blue-Green Deployment?&lt;/h2&gt;&#xA;&lt;p&gt;Blue-Green Deployment is a deployment strategy that reduces downtime by running two identical production environments. One environment (let&amp;rsquo;s call it Blue) is live and serving traffic, while the other environment (let&amp;rsquo;s call it Green) is idle. When you want to deploy a new version of your application, you deploy it to the Green environment. Once the deployment is successful, you switch the traffic from the Blue environment to the Green environment. This way, you can deploy new versions of your application without any downtime.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Deploying this site using GitHub Actions</title>
+      <link>/posts/deploying-this-site-using-github-actions/</link>
+      <pubDate>Fri, 21 Jun 2024 17:50:45 +0700</pubDate>
+      <guid>/posts/deploying-this-site-using-github-actions/</guid>
+      <description>&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;&#xA;&lt;p&gt;I was bored at work and I thought, &lt;strong&gt;&amp;ldquo;Hey, why not automate the deployment of this site using GitHub Actions? But I don&amp;rsquo;t want the easy way, I want to do it the hard way.&amp;rdquo;&lt;/strong&gt;. I like torturing myself, so I did it the hard way. And now I&amp;rsquo;m writing about it.&lt;/p&gt;&#xA;&lt;p&gt;Before we start, let me tell you that &lt;strong&gt;this is not a guide. This is a mess.&lt;/strong&gt; I&amp;rsquo;m just documenting what I did so that I can look back and laugh at myself. If you&amp;rsquo;re looking for a guide, you&amp;rsquo;re in the wrong place. But if you&amp;rsquo;re looking for a mess, you&amp;rsquo;re in the right place.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/about/</guid>
+      <description>&lt;p&gt;My name is &lt;strong&gt;Bintang&lt;/strong&gt; Pradana Erlangga Putra, to be honest I don&amp;rsquo;t know what to write about myself.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a Jogja-based backend/AI engineer and I love researching things!&lt;/p&gt;&#xA;&lt;h2 id=&#34;experiences&#34;&gt;Experiences&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Intermediate Software Engineer (RnD)&lt;/strong&gt;, &lt;em&gt;(2023 - now, Privy)&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mostly AI/ML stuff&lt;/li&gt;&#xA;&lt;li&gt;I signed an NDA&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Junior Software Engineer (Backend)&lt;/strong&gt;, &lt;em&gt;(2022 - 2023. Privy)&lt;/em&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mostly backend stuff&lt;/li&gt;&#xA;&lt;li&gt;Internal tools&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Software Engineer&lt;/strong&gt;, &lt;em&gt;(2022 - 2022, Belajar+ and Resolv)&lt;/em&gt; (yes, I worked at two startups)&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Face recognition black magic&lt;/li&gt;&#xA;&lt;li&gt;Plumber (data pipeline hehe)&lt;/li&gt;&#xA;&lt;li&gt;Backend things&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/bpradana/gxe&#34;&gt;gxe (Graph Execution Engine)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/bpradana/smolchain&#34;&gt;smolchain (LangChain replacement)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/bpradana/vektor&#34;&gt;vektor (Vector database in Go)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/bpradana/zephyr&#34;&gt;zephyr (RTSP streaming that doesn&amp;rsquo;t sucks)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
