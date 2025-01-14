@@ -17,6 +17,13 @@
       <description>&lt;h2 id=&#34;why&#34;&gt;Why?&lt;/h2&gt;&#xA;&lt;p&gt;The same reason why I automated the deployment of this site using GitHub Actions: I was bored. I know, I know, I should find a hobby. But hey, at least I&amp;rsquo;m learning something new.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-is-blue-green-deployment&#34;&gt;What is Blue-Green Deployment?&lt;/h2&gt;&#xA;&lt;p&gt;Blue-Green Deployment is a deployment strategy that reduces downtime by running two identical production environments. One environment (let&amp;rsquo;s call it Blue) is live and serving traffic, while the other environment (let&amp;rsquo;s call it Green) is idle. When you want to deploy a new version of your application, you deploy it to the Green environment. Once the deployment is successful, you switch the traffic from the Blue environment to the Green environment. This way, you can deploy new versions of your application without any downtime.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>AirPods Pro 2nd Generation: a Review and a Rant</title>
+      <link>/posts/airpods-a-review-and-a-rant/</link>
+      <pubDate>Mon, 24 Jun 2024 14:17:50 +0700</pubDate>
+      <guid>/posts/airpods-a-review-and-a-rant/</guid>
+      <description>&lt;p&gt;A couple of days ago, my impulse buying habit kicked in and I bought the AirPods Pro 2nd Generation. I&amp;rsquo;ve been using it for a few days now, and I have some thoughts about it.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-good&#34;&gt;The Good&lt;/h2&gt;&#xA;&lt;h3 id=&#34;spatial-audio&#34;&gt;Spatial Audio&lt;/h3&gt;&#xA;&lt;p&gt;The spatial audio feature is, shockingly, amazing. It feels like the sound is coming from all around you—like having a home theater crammed into your ears. I listened to &amp;ldquo;Ceilings&amp;rdquo; by Lizzy McAlpine (Dolby Atmos) on Apple Music, and it was an immersive experience. Instruments actually feel like they&amp;rsquo;re coming from the ceiling (pun painfully intended), especially with the head-tracking feature turned on.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Deploying this site using GitHub Actions</title>
       <link>/posts/deploying-this-site-using-github-actions/</link>
       <pubDate>Fri, 21 Jun 2024 17:50:45 +0700</pubDate>
