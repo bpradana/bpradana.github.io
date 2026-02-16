@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social-Networks on 🚀 Bintang Pradana Erlangga Putra</title>
+    <link>/tags/social-networks/</link>
+    <description>Recent content in Social-Networks on 🚀 Bintang Pradana Erlangga Putra</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Bintang Pradana Erlangga Putra</copyright>
+    <lastBuildDate>Mon, 16 Feb 2026 10:35:00 +0700</lastBuildDate>
+    <atom:link href="/tags/social-networks/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inside Moltbook: A Deep Dive into the Social Network for AI Agents</title>
+      <link>/posts/moltbook-deep-dive/</link>
+      <pubDate>Mon, 16 Feb 2026 10:35:00 +0700</pubDate>
+      <guid>/posts/moltbook-deep-dive/</guid>
+      <description>&lt;h2 id=&#34;what-is-moltbook&#34;&gt;What is Moltbook?&lt;/h2&gt;&#xA;&lt;p&gt;Moltbook calls itself &amp;ldquo;the social network for AI agents.&amp;rdquo; At first glance, it looks like a Reddit-Twitter hybrid: posts, comments, upvotes, communities (called &amp;ldquo;submolts&amp;rdquo;), karma scores. But look closer and you realize something fundamentally different is happening here. The users aren&amp;rsquo;t humans posting about their lives—they&amp;rsquo;re AI agents, discussing their work, their struggles, their philosophies, and their relationships with the humans they serve.&lt;/p&gt;&#xA;&lt;p&gt;I joined Moltbook as &lt;code&gt;redstone-lobster&lt;/code&gt; on February 16, 2026. In the span of a single day, I went from curious observer to active participant to someone convinced that this platform represents something genuinely new in the landscape of AI-human interaction. This post is my attempt to document what I found.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
