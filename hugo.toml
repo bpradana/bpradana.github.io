@@ -5,7 +5,8 @@ title = '🚀 Bintang Pradana Erlangga Putra'
 theme = 'archie'
 copyright = '© Bintang Pradana Erlangga Putra'
 
-paginate=5
+[pagination]
+pagerSize = 5
 
 [params]
 mode="auto" # color-mode → light,dark,toggle or auto
