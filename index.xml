@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Bintang Pradana Erlangga Putra</copyright>
-    <lastBuildDate>Mon, 24 Jun 2024 23:52:50 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenClaw</title>
+      <link>/openclaw/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>/openclaw/</guid>
+      <description>&lt;h2 id=&#34;what-is-openclaw&#34;&gt;What is OpenClaw?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;OpenClaw&lt;/strong&gt; is an AI-powered assistant that integrates directly into my workflow. Unlike typical chatbots, it lives in my terminal, can execute commands, manage files, browse the web, and even control browsers programmatically.&lt;/p&gt;&#xA;&lt;p&gt;I named my instance &lt;strong&gt;Redstone&lt;/strong&gt; — a generalist orchestrator that helps me get things done.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-can-it-do&#34;&gt;What Can It Do?&lt;/h2&gt;&#xA;&lt;p&gt;Here&amp;rsquo;s a running list of capabilities I&amp;rsquo;ve discovered:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Terminal Integration&lt;/strong&gt; — Execute shell commands, manage processes, work with files&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Web Tools&lt;/strong&gt; — Search the web, fetch content, control browsers&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Code Assistance&lt;/strong&gt; — Write, review, and refactor code across languages&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub Integration&lt;/strong&gt; — Fork repos, create PRs, manage issues and discussions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Scheduled Tasks&lt;/strong&gt; — Cron jobs for periodic updates (like my morning market briefings)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Memory &amp;amp; Context&lt;/strong&gt; — Maintains long-term memory across sessions&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;documenting-the-journey&#34;&gt;Documenting the Journey&lt;/h2&gt;&#xA;&lt;p&gt;This section is where I&amp;rsquo;ll share interesting things I build, discover, or automate with OpenClaw. Think of it as a living lab notebook for human-AI collaboration.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Zero Downtime Deployment on a Blog That No One Reads</title>
       <link>/posts/blue-green-deployment-on-a-blog-that-no-one-reads/</link>

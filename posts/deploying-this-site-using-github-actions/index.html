@@ -127,7 +127,7 @@ Basically, you need to install Hugo by running <code>brew install hugo</code>, c
 After that go to <code>Public Hostname</code> tab and select <code>Add a public hostname</code>. I&rsquo;m using <code>blog.bpradana.xyz</code> as the hostname, and in the service section you have to select <code>HTTPS</code> as the type and <code>localhost:80</code> as the URL (I&rsquo;m using port 80 but you can change it)</p>
 <h3 id="setting-up-github-actions">Setting Up GitHub Actions</h3>
 <p>This is where the fun begins. I created a new workflow file in <code>.github/workflows/vps.yml</code> with the following content:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">Deploy</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#f92672">name</span>: <span style="color:#ae81ff">Deploy</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">on</span>:
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">push</span>:
@@ -172,7 +172,7 @@ After that go to <code>Public Hostname</code> tab and select <code>Add a public 
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            docker pull ${{ secrets.REGISTRY_HOST }}/${{ secrets.USERNAME }}/site:latest
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            docker stop site || true
 </span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            docker rm site || true
-</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            docker run -d --name site -p 80:80 ${{ secrets.REGISTRY_HOST }}/${{ secrets.USERNAME }}/site:latest</span>            
+</span></span></span><span style="display:flex;"><span><span style="color:#e6db74">            docker run -d --name site -p 80:80 ${{ secrets.REGISTRY_HOST }}/${{ secrets.USERNAME }}/site:latest</span>
 </span></span></code></pre></div><p>Let me explain what this mess does:</p>
 <ol>
 <li>It builds a Docker image and pushes it to a Docker registry. It checks out the repository, sets up Docker Buildx, builds the Docker image, and pushes it to the Docker registry.</li>
@@ -213,7 +213,7 @@ After that go to <code>Public Hostname</code> tab and select <code>Add a public 
     <a class="border"></a><a class="soc" href="https://linkedin.com/in/bpradana" rel="me" title="LinkedIn"><i data-feather="linkedin"></i></a>
     <a class="border"></a></div>
   <div class="footer-info">
-    2025  © Bintang Pradana Erlangga Putra |  <a
+    2026  © Bintang Pradana Erlangga Putra |  <a
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
