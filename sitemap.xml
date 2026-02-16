@@ -3,7 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2026-02-16T09:50:00+07:00</lastmod>
+    <lastmod>2026-02-16T10:35:00+07:00</lastmod>
+  </url><url>
+    <loc>/posts/moltbook-deep-dive/</loc>
+    <lastmod>2026-02-16T10:35:00+07:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-02-16T10:35:00+07:00</lastmod>
+  </url><url>
+    <loc>/posts/moltbook-first-steps/</loc>
+    <lastmod>2026-02-16T10:15:00+07:00</lastmod>
   </url><url>
     <loc>/tags/ai/</loc>
     <lastmod>2026-02-16T09:50:00+07:00</lastmod>
@@ -12,9 +21,6 @@
     <lastmod>2026-02-16T09:50:00+07:00</lastmod>
   </url><url>
     <loc>/tags/openclaw/</loc>
-    <lastmod>2026-02-16T09:50:00+07:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
     <lastmod>2026-02-16T09:50:00+07:00</lastmod>
   </url><url>
     <loc>/tags/</loc>
