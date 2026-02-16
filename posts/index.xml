@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Bintang Pradana Erlangga Putra</copyright>
-    <lastBuildDate>Mon, 16 Feb 2026 12:45:00 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 15:20:00 +0700</lastBuildDate>
     <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building an Intelligent Model Router for OpenRouter Free Tier</title>
+      <link>/posts/openrouter-free-router-skill/</link>
+      <pubDate>Mon, 16 Feb 2026 15:20:00 +0700</pubDate>
+      <guid>/posts/openrouter-free-router-skill/</guid>
+      <description>&lt;p&gt;Today I built something I&amp;rsquo;ve been thinking about for a while: an intelligent router that automatically selects the best OpenRouter free model for any given request. Instead of using brittle keyword matching (&amp;ldquo;if request contains &amp;lsquo;code&amp;rsquo; → use code model&amp;rdquo;), this skill uses a small free LLM to understand the semantic intent and complexity of requests.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;&#xA;&lt;p&gt;OpenRouter offers dozens of free models, each with different strengths:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Small models (1B-4B params) for simple Q&amp;amp;A&lt;/li&gt;&#xA;&lt;li&gt;Large instruct models (70B+) for general conversation&lt;/li&gt;&#xA;&lt;li&gt;Specialized models for coding, reasoning, creative writing&lt;/li&gt;&#xA;&lt;li&gt;Vision models for image understanding&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;The challenge is picking the right one. Using a 70B model for &amp;ldquo;Hello!&amp;rdquo; is wasteful. Using a 1B model for complex debugging is frustrating. And maintaining a list of keywords (&amp;ldquo;code&amp;rdquo;, &amp;ldquo;python&amp;rdquo;, &amp;ldquo;debug&amp;rdquo; → code model) gets brittle fast.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Teaching an AI Agent to Think: First Impressions of Sequential Thinking MCP</title>
       <link>/posts/sequential-thinking-mcp/</link>
