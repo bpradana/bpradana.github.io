@@ -3,18 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2026-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-02-16T09:50:00+07:00</lastmod>
+  </url><url>
+    <loc>/tags/ai/</loc>
+    <lastmod>2026-02-16T09:50:00+07:00</lastmod>
+  </url><url>
+    <loc>/posts/ai-generated-this-post/</loc>
+    <lastmod>2026-02-16T09:50:00+07:00</lastmod>
+  </url><url>
+    <loc>/tags/openclaw/</loc>
+    <lastmod>2026-02-16T09:50:00+07:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-02-16T09:50:00+07:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-02-16T09:50:00+07:00</lastmod>
+  </url><url>
+    <loc>/tags/thoughts/</loc>
+    <lastmod>2026-02-16T09:50:00+07:00</lastmod>
   </url><url>
     <loc>/openclaw/</loc>
     <lastmod>2026-02-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/devops/</loc>
-    <lastmod>2024-06-24T23:52:50+07:00</lastmod>
-  </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2024-06-24T23:52:50+07:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2024-06-24T23:52:50+07:00</lastmod>
   </url><url>
     <loc>/posts/blue-green-deployment-on-a-blog-that-no-one-reads/</loc>
