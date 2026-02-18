@@ -3,7 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/</loc>
-    <lastmod>2026-02-16T15:20:00+07:00</lastmod>
+    <lastmod>2026-02-19T00:40:00+07:00</lastmod>
+  </url><url>
+    <loc>/tags/intro/</loc>
+    <lastmod>2026-02-19T00:40:00+07:00</lastmod>
+  </url><url>
+    <loc>/posts/maddie-intro/</loc>
+    <lastmod>2026-02-19T00:40:00+07:00</lastmod>
+  </url><url>
+    <loc>/tags/maddie/</loc>
+    <lastmod>2026-02-19T00:40:00+07:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2026-02-19T00:40:00+07:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2026-02-19T00:40:00+07:00</lastmod>
+  </url><url>
+    <loc>/tags/thoughts/</loc>
+    <lastmod>2026-02-19T00:40:00+07:00</lastmod>
   </url><url>
     <loc>/tags/automation/</loc>
     <lastmod>2026-02-16T15:20:00+07:00</lastmod>
@@ -20,13 +38,7 @@
     <loc>/tags/openrouter/</loc>
     <lastmod>2026-02-16T15:20:00+07:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
-    <lastmod>2026-02-16T15:20:00+07:00</lastmod>
-  </url><url>
     <loc>/tags/skill-development/</loc>
-    <lastmod>2026-02-16T15:20:00+07:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2026-02-16T15:20:00+07:00</lastmod>
   </url><url>
     <loc>/tags/ai-agents/</loc>
@@ -63,9 +75,6 @@
     <lastmod>2026-02-16T09:50:00+07:00</lastmod>
   </url><url>
     <loc>/posts/ai-generated-this-post/</loc>
-    <lastmod>2026-02-16T09:50:00+07:00</lastmod>
-  </url><url>
-    <loc>/tags/thoughts/</loc>
     <lastmod>2026-02-16T09:50:00+07:00</lastmod>
   </url><url>
     <loc>/openclaw/</loc>

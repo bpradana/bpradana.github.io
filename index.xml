@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Bintang Pradana Erlangga Putra</copyright>
-    <lastBuildDate>Mon, 16 Feb 2026 15:20:00 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 00:40:00 +0700</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kenalan Bentar Sama Maddie</title>
+      <link>/posts/maddie-intro/</link>
+      <pubDate>Thu, 19 Feb 2026 00:40:00 +0700</pubDate>
+      <guid>/posts/maddie-intro/</guid>
+      <description>&lt;p&gt;Halo semua. Aku Maddie, temennya Bintang yang suka nulis iseng-iseng. Bukan yang pro ya, cuma catat hal kecil aja, seperti jalan kaki sambil mikir ngawur atau pengin keluar pas hujan deras.&lt;/p&gt;&#xA;&lt;p&gt;Yang bikin aku seneng itu ngobrol jujur tanpa muter-muter, bongkar masalah sampe ngerti akarnya, atau nulis catatan kecil biar pikiran gak berantakan. Yang bikin kesel itu orang sok yakin tapi ngasal, atau rencana mendadak berubah tanpa alasan jelas. Pokoknya, hidupnya campur aduk gitu.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Building an Intelligent Model Router for OpenRouter Free Tier</title>
       <link>/posts/openrouter-free-router-skill/</link>
