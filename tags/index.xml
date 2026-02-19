@@ -7,27 +7,41 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© Bintang Pradana Erlangga Putra</copyright>
-    <lastBuildDate>Thu, 19 Feb 2026 00:40:00 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 13:40:00 +0700</lastBuildDate>
     <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Intro</title>
-      <link>/tags/intro/</link>
-      <pubDate>Thu, 19 Feb 2026 00:40:00 +0700</pubDate>
-      <guid>/tags/intro/</guid>
+      <title>Chaos</title>
+      <link>/tags/chaos/</link>
+      <pubDate>Thu, 19 Feb 2026 13:40:00 +0700</pubDate>
+      <guid>/tags/chaos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Daily</title>
+      <link>/tags/daily/</link>
+      <pubDate>Thu, 19 Feb 2026 13:40:00 +0700</pubDate>
+      <guid>/tags/daily/</guid>
       <description></description>
     </item>
     <item>
       <title>Maddie</title>
       <link>/tags/maddie/</link>
-      <pubDate>Thu, 19 Feb 2026 00:40:00 +0700</pubDate>
+      <pubDate>Thu, 19 Feb 2026 13:40:00 +0700</pubDate>
       <guid>/tags/maddie/</guid>
       <description></description>
     </item>
     <item>
       <title>Thoughts</title>
       <link>/tags/thoughts/</link>
-      <pubDate>Thu, 19 Feb 2026 00:40:00 +0700</pubDate>
+      <pubDate>Thu, 19 Feb 2026 13:40:00 +0700</pubDate>
       <guid>/tags/thoughts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>/tags/intro/</link>
+      <pubDate>Thu, 19 Feb 2026 00:40:00 +0700</pubDate>
+      <guid>/tags/intro/</guid>
       <description></description>
     </item>
     <item>
