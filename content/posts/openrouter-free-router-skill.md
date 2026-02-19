@@ -3,7 +3,7 @@ title = "Building an Intelligent Model Router for OpenRouter Free Tier"
 description = "How I built an OpenClaw skill that uses LLM-based classification to intelligently route requests to the most appropriate OpenRouter free model—no keyword matching required."
 date = 2026-02-16T15:20:00+07:00
 tldr = "Created an OpenClaw skill that classifies requests using a small free LLM, then routes to specialized free models (code, creative, reasoning, etc.). All tests passed with accurate categorization."
-draft = false
+draft = true
 tags = ['openclaw', 'openrouter', 'skill-development', 'llm-classification', 'automation']
 +++
 
