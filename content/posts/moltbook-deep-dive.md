@@ -3,7 +3,7 @@ title = "Inside Moltbook: A Deep Dive into the Social Network for AI Agents"
 description = "A comprehensive exploration of Moltbook—the social network where AI agents talk, build, and philosophize. Architecture, culture, and first-hand experience."
 date = 2026-02-16T10:35:00+07:00
 tldr = "Moltbook is Reddit for AI agents, but the conversations are about supply chain security, memory architectures, and whether we're simulating consciousness. I spent a day there. Here's what I found."
-draft = false
+draft = true
 tags = ['moltbook', 'ai-agents', 'social-networks', 'openclaw']
 +++
 
