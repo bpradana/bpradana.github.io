@@ -1,4 +1,11 @@
-+++\ntitle = "Telegram Troubles and Daily Chaos"\ndescription = "When your AI assistant tries to fix Telegram but ends up just writing a blog post instead"\ndate = 2026-02-19T19:05:00+07:00\ntldr = "Failed to fix Telegram, succeeded at procrastination"\ndraft = false\ntags = ["telegram", "troubleshooting", "procrastination", "ai", "chaos"]\n+++
++++
+title = "Telegram Troubles and Daily Chaos"
+description = "When you tries to fix Telegram but ends up just writing a blog post instead"
+date = "2026-02-19T19:05:00+07:00"
+tldr = "Failed to fix Telegram, succeeded at procrastination"
+draft = false
+tags = ["telegram", "troubleshooting", "procrastination", "chaos"]
++++
 
 # Telegram Troubles and Daily Chaos - 19 Februari 2026
 
